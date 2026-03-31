@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#e8e8ea" id="theme-color-meta">
   <title>Mohandas T S</title>
 
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
@@ -29,6 +30,10 @@
       </h1>
 
       <div class="navbar-actions">
+
+        <button class="theme-btn" type="button" data-theme-btn aria-label="Turn on dark mode" title="Dark mode">
+          <span class="icon" aria-hidden="true"></span>
+        </button>
 
       </div>
 
@@ -89,7 +94,7 @@
 
         <div class="hero-content">
 
-          <h3 class="h2 hero-title" style="color: black;">Hi,<br/>i'm a Full-Stack Dev</h3>
+          <h3 class="h2 hero-title">Hi,<br />i'm a Full Stack Software Engineer</h3>
 
           <a href="#contact" class="btn btn-primary">Get in touch</a>
 
@@ -213,15 +218,24 @@
           <h2 class="h3 section-title">Looking for a touch of creativity in your project? I'm here to assist you</h2>
 
           <p class="section-text">
-            Hello, I'm Mohandas T S, a self-taught full-stack web developer with a fervor for crafting visually
-            engaging and user-centric websites and applications. My journey began with a strong focus on front-end technologies
-            like HTML, CSS, and JavaScript. Over time, I've mastered technologies like Node.js and React, enabling me to create 
-            robust and dynamic web solutions. My passion for innovation keeps me at the forefront of web development trends,
-             motivating me to acquire new skills and embrace fresh challenges in this ever-evolving field. I'm a true JS enthusiast!
+            I'm Mohandas T S, a full stack engineer currently at <strong>Enculture AI</strong>, where I help build a culture
+            intelligence platform for 50,000+ users. I'm self-taught, JavaScript–centric, and focused on
+            clean interfaces, solid APIs, and measurable quality.
           </p>
 
+          <div class="current-role" aria-label="Current role">
+            <p class="current-role-heading">Enculture AI</p>
+            <p class="current-role-meta">Full Stack Software Engineer · July 2024 – present · Hyderabad, Telangana</p>
+            <ul class="current-role-list">
+              <li>Engineering features on a multi-tenant culture platform serving 50,000+ users and 1M+ survey and analytics records.</li>
+              <li>Front end with <strong>React</strong>, <strong>TypeScript</strong>, responsive UI, <strong>Redux Toolkit</strong>, and <strong>React Query / RTK Query</strong> for state and data fetching.</li>
+              <li>Back end with <strong>Node.js</strong> and <strong>Express</strong>: REST APIs, <strong>MongoDB / Mongoose</strong>, and <strong>Redis</strong> caching under concurrency.</li>
+              <li>Quality: introduced <strong>Playwright</strong> automation and reporting so critical journeys stay covered with far less manual regression.</li>
+            </ul>
+          </div>
+
           <div class="btn-group">
-            <a href="https://drive.google.com/file/d/1BqPrzeCMjb_T8VLeo2yi3lqGcqQE7Xhs/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1CH8PucLjrLTYziKFCZMn55dw8c1555Ff/view?usp=sharing">
 
             <button class="btn btn-primary">Download cv</button>
           </a>
@@ -333,16 +347,6 @@
                 </div>
               </div>
             </li>
-
-            <li>
-                <div class="skill-card">
-                  <div class="tooltip">Photoshop</div>
-  
-                  <div class="card-icon">
-                    <img src="./assets/images/photoshop.png" alt="Photoshop logo">
-                  </div>
-                </div>
-              </li>
 
               <li>
                 <div class="skill-card">
@@ -495,7 +499,7 @@
               </figure>
 
               <div class="card-content">
-                <h3 class="h4 card-title">Clone of BMW Cycles Home Page</h3>
+                <h3 class="h4 card-title">Weather Forecast</h3>
 
                 <time class="publish-date" datetime="2022-04">Live</time>
               </div>
@@ -503,7 +507,7 @@
             </a>
           </li>
 
-          <li>
+          <!-- <li>
             <a href="https://marvelshopee.netlify.app/" class="project-card">
 
               <figure class="card-banner">
@@ -512,13 +516,13 @@
               </figure>
 
               <div class="card-content">
-                <h3 class="h4 card-title">A Simple ToDo List Using HTML,CSS & JS</h3>
+                <h3 class="h4 card-title"></h3>
 
                 <time class="publish-date" datetime="2022-04">Live</time>
               </div>
 
             </a>
-          </li>
+          </li> -->
           <li>
             <a href="https://mohandaz3.github.io/Netflix-Clone-using-React/" class="project-card">
 
@@ -553,12 +557,11 @@
             </a>
           </li>
 
-          <a href="https://github.com/MohanDaz3?tab=repositories">
-          <li>
-            <button class="load-more">Load more work</button>
-          </li>
-        </a>
         </ul>
+
+        <div class="project-load-more-wrap">
+          <a href="https://github.com/MohanDaz3?tab=repositories" class="load-more">Load more work</a>
+        </div>
 
       </section>
 
@@ -581,6 +584,38 @@
           <p class="section-text">
             If you find my work interesting, feel free to ping. Let's us stay connected on LinkedIn. I don't mind a few ⭐️ on my Git.
           </p>
+
+          <!-- Developer: get a free access key at https://web3forms.com and paste it into access_key below. -->
+          <form class="contact-form" action="https://api.web3forms.com/submit" method="POST" accept-charset="UTF-8">
+            <input type="hidden" name="access_key" value="9aa7bbec-ff37-45fd-9f10-089a642d9441">
+            <input type="hidden" name="subject" value="Portfolio enquiry — Mohandas T S">
+            <input type="hidden" name="from_name" value="Portfolio site">
+
+            <div class="contact-form-field">
+              <label class="contact-form-label" for="enquiry-name">Name</label>
+              <input class="contact-form-input" type="text" id="enquiry-name" name="name" placeholder="Your name"
+                autocomplete="name" required>
+            </div>
+
+            <div class="contact-form-field">
+              <label class="contact-form-label" for="enquiry-email">Email</label>
+              <input class="contact-form-input" type="email" id="enquiry-email" name="email" placeholder="you@example.com"
+                autocomplete="email" required>
+            </div>
+
+            <div class="contact-form-field">
+              <label class="contact-form-label" for="enquiry-message">Message</label>
+              <textarea class="contact-form-input contact-form-textarea" id="enquiry-message" name="message" rows="5"
+                placeholder="What would you like to discuss?" required></textarea>
+            </div>
+
+            <input type="checkbox" name="botcheck" class="contact-form-honey" tabindex="-1" autocomplete="off"
+              aria-hidden="true">
+
+            <button class="btn btn-primary contact-form-submit" type="submit">Send message</button>
+
+            <p class="contact-form-status" id="contact-form-status" role="status" aria-live="polite" hidden></p>
+          </form>
 
           <ul class="contact-list">
             <li class="contact-list-item">
@@ -608,7 +643,7 @@
 
                 <a href="mailto:info@jack.com" class="contact-info">mohandassrinivasan@gmail.com</a>
 
-                <a href="mailto:support@jack.com" class="contact-info">mohandass.unni3@gmail.com</a>
+                <!-- <a href="mailto:support@jack.com" class="contact-info">mohandass.unni3@gmail.com</a> -->
               </div>
 
             </li>

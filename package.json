@@ -1,0 +1,13 @@
+{
+  "name": "mohandas-ts-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal portfolio site",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/index.html",
+    "dev": "live-server --port=3000 --open=/index.html"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
